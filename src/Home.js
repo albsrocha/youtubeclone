@@ -36,85 +36,85 @@ import { Typography, Grid } from '@material-ui/core';
 
 const videos = [
     {
-      id: 1,
-      title:
-        'FEED DO USUÁRIO | Criando uma Rede Social com React.js e .NET Core #29',
-      channel: 'Lucas Nhimi',
-      views: '11 mi de visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb1.png',
+        id: 1,
+        title:
+            'FEED DO USUÁRIO | Criando uma Rede Social com React.js e .NET Core #29',
+        channel: 'Lucas Nhimi',
+        views: '11 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb1.png',
     },
     {
-      id: 2,
-      title:
-        'COMO MELHORAR SEU CODIGO JAVASCRIPT (ESLINT + PRETTIER + EDITORCONFIG) | Dicas e Truques #02',
-      channel: 'Lucas Nhimi',
-      views: '957 mil visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb2.png',
+        id: 2,
+        title:
+            'COMO MELHORAR SEU CODIGO JAVASCRIPT (ESLINT + PRETTIER + EDITORCONFIG) | Dicas e Truques #02',
+        channel: 'Lucas Nhimi',
+        views: '957 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb2.png',
     },
     {
-      id: 3,
-      title:
-        'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-      channel: 'Lucas Nhimi',
-      views: '106 mil visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb3.png',
+        id: 3,
+        title:
+            'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
+        channel: 'Lucas Nhimi',
+        views: '106 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb3.png',
     },
     {
-      id: 4,
-      title:
-        'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-      channel: 'Lucas Nhimi',
-      views: '5,6 mi de visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb4.png',
+        id: 4,
+        title:
+            'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
+        channel: 'Lucas Nhimi',
+        views: '5,6 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb4.png',
     },
     {
-      id: 5,
-      title:
-        'EDITOR DE POST COM MARKDOWN 2 | Criando uma Rede Social com React.js e .NET Core #26',
-      channel: 'Lucas Nhimi',
-      views: '2,2 mi de visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb5.png',
+        id: 5,
+        title:
+            'EDITOR DE POST COM MARKDOWN 2 | Criando uma Rede Social com React.js e .NET Core #26',
+        channel: 'Lucas Nhimi',
+        views: '2,2 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb5.png',
     },
     {
-      id: 6,
-      title: 'COMO MIGRAR PARA REACT HOOKS | Dicas e Truques #01',
-      channel: 'Lucas Nhimi',
-      views: '233 mil visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb6.png',
+        id: 6,
+        title: 'COMO MIGRAR PARA REACT HOOKS | Dicas e Truques #01',
+        channel: 'Lucas Nhimi',
+        views: '233 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb6.png',
     },
     {
-      id: 7,
-      title:
-        'PRÉ-REQUISITOS | Criando uma Rede Social com React.js e .NET Core #01',
-      channel: 'Lucas Nhimi',
-      views: '118 mil visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb7.png',
+        id: 7,
+        title:
+            'PRÉ-REQUISITOS | Criando uma Rede Social com React.js e .NET Core #01',
+        channel: 'Lucas Nhimi',
+        views: '118 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb7.png',
     },
     {
-      id: 8,
-      title:
-        'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
-      channel: 'Lucas Nhimi',
-      views: '1,9 mi de visualizações',
-      date: 'há 1 semana',
-      avatar: '/images/avatar.jpeg',
-      thumb: '/images/thumb8.png',
+        id: 8,
+        title:
+            'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
+        channel: 'Lucas Nhimi',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb8.png',
     },
-  ];
+];
 
 
 const useStyles = makeStyles((theme) => ({
@@ -160,18 +160,18 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
     },
-    spamlogin:{
+    spamlogin: {
         justifyContent: 'center',
-        alignContent:'center',
+        alignContent: 'center',
     },
-    button:{
+    button: {
         marginTop: '12px',
     },
-    ListItem:{
+    ListItem: {
         paddingTop: '4px',
         paddingBottom: '4px',
     },
-    boxcontent:{
+    boxcontent: {
         paddingLeft: '200px',
         paddingTop: '1%'
     },
@@ -190,7 +190,8 @@ function Home() {
                         <MenuIcon />
                     </IconButton>
                     <img src={logoPreto} alt='LogoPreto' className={classes.logo} />
-
+                    
+                    
                     <div className={classes.grow} />
 
                     <IconButton className={classes.icons} color="inherit">
@@ -210,161 +211,199 @@ function Home() {
                     </Button>
                 </Toolbar>
             </AppBar>
-        <Box display='flex'>
-            <Drawer
-                className={classes.drawer}
-                variant="permanent"
-                classes={{
-                    paper: classes.drawerPaper,
-                }}
-            >
-                <Toolbar />
-                <div className={classes.drawerContainer}>
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<HomeIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Início'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<ExploreIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Explorar'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<SubscriptionsIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Inscrições'} />
-                        </ListItem>
-                    </List>
-
-                    <Divider />
-
-                </div>
-
-                <div className={classes.drawerContainer}>
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<VideoLibraryIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Biblioteca'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<HistoryIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'História'} />
-                        </ListItem>
-                    </List>
-
-                    <Divider />
-
-                </div>
-
-                <Box className={classes.sidelogin}>
-
-                    <spam className={classes.spamlogin}> Faça login para gostar de vídeos, comentários e se inscrever. </spam>
-                    <Button className={classes.button} variant='outlined' color="secondary" startIcon={<PersonPinIcon />}>
-                        Fazer Login
-                    </Button>
-                </Box>
-                <Divider />
-
-                <div className={classes.drawerContainer}>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<PlayCircleFilledRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Músicas'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<SportsBasketballRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Esportes'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<SportsEsportsIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Jogos'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<LocalMoviesRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Filmes'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<FiberNewRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Notícias'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<LiveTvRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Ao vivo'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<WhatshotRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Destaques'} />
-                        </ListItem>
-                    </List>
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<ThreeDRotationRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Vídeos 360'} />
-                        </ListItem>
-                    </List>
-
-                    <Divider />
-
-
-                    <List>
-                        <ListItem button classes={{root : classes.ListItem}}>
-                            <ListItemIcon>{<ControlPointRoundedIcon />}</ListItemIcon>
-                            <ListItemText classes={{ primary: classes.itemListText }} primary={'Procurar mais'} />
-                        </ListItem>
-                    </List>
-
-                </div>
-
-            </Drawer>
-            
-            <Box className={classes.boxcontent}>
-                <Toolbar />
-                <Typography
-                variant='h5'
-                color='textPrimary'
-                style={{fontWeight:800}}
+            <Box display='flex'>
+                <Drawer
+                    className={classes.drawer}
+                    variant="permanent"
+                    classes={{
+                        paper: classes.drawerPaper,
+                    }}
                 >
-                    Recomendar
-                    
-                </Typography>
+                    <Toolbar />
+                    <div className={classes.drawerContainer}>
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<HomeIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Início'} />
+                            </ListItem>
+                        </List>
 
-                <Grid container >
-                    {
-                        videos.map((item, key)=>(
-                            <Grid item lg={3} md={4} sm={6} xs={12}> item </Grid>
-                        ))
-                    }
-                </Grid>
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<ExploreIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Explorar'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<SubscriptionsIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Inscrições'} />
+                            </ListItem>
+                        </List>
+
+                        <Divider />
+
+                    </div>
+
+                    <div className={classes.drawerContainer}>
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<VideoLibraryIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Biblioteca'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<HistoryIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'História'} />
+                            </ListItem>
+                        </List>
+
+                        <Divider />
+
+                    </div>
+
+                    <Box className={classes.sidelogin}>
+
+                        <Typography
+                            variant='body2'
+                        >Faça login para curtir vídeos, comentários e se inscrever.
+                         </Typography>
+                        <Button className={classes.button} variant='outlined' color="secondary" startIcon={<PersonPinIcon />}>
+                            Fazer Login
+                        </Button>
+                    </Box>
+                    <Divider />
+
+                    <div className={classes.drawerContainer}>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<PlayCircleFilledRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Músicas'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<SportsBasketballRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Esportes'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<SportsEsportsIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Jogos'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<LocalMoviesRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Filmes'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<FiberNewRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Notícias'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<LiveTvRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Ao vivo'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<WhatshotRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Destaques'} />
+                            </ListItem>
+                        </List>
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<ThreeDRotationRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Vídeos 360'} />
+                            </ListItem>
+                        </List>
+
+                        <Divider />
+
+
+                        <List>
+                            <ListItem button classes={{ root: classes.ListItem }}>
+                                <ListItemIcon>{<ControlPointRoundedIcon />}</ListItemIcon>
+                                <ListItemText classes={{ primary: classes.itemListText }} primary={'Procurar mais'} />
+                            </ListItem>
+                        </List>
+
+                    </div>
+
+                </Drawer>
+
+                <Box className={classes.boxcontent}>
+                    <Toolbar />
+                    <Typography
+                        variant='h5'
+                        color='textPrimary'
+                        style={{ fontWeight: 800 }}
+                    >
+
+                    </Typography>
+
+                    <Grid container spacing={2} >
+                        {
+                            videos.map((item, key) => (
+                                <Grid item lg={3} md={4} sm={6} xs={12}>
+                                    <Box>
+                                        <img
+                                            style={{ width: '100%' }}
+                                            alt={item.title}
+                                            src={item.thumb}
+                                        />
+                                        <Box p={1} style={{ display: 'flex', flexDirection: 'row ' }}>
+                                            <img
+                                                style={{ width: '30px', height: '30px', borderRadius: '100%' }}
+                                                alt={item.title}
+                                                src={item.avatar}
+                                            />
+                                            <Typography
+                                                style={{ fontWeight: 600, paddingLeft: '20px' }}
+                                                gutterBottom
+                                                variant='body2'
+                                                color='textPrimary'
+                                            >
+                                                {item.title}
+                                            </Typography>
+                                        </Box>
+
+                                        <Box style={{ paddingLeft: '50px' }}>
+                                            <Typography
+                                                display='block'
+                                                variant='body2'
+                                                color='textSecondary'
+                                            >
+                                                {item.channel}
+                                            </Typography>
+                                            <Typography variant='body2' color='textSecondary'>
+                                                {`${item.views} • ${item.date}`}
+                                            </Typography>
+                                        </Box>
+                                    </Box>
+                                </Grid>
+                            ))
+                        }
+                    </Grid>
+                </Box>
             </Box>
-        </Box>
         </div>
     )
 }
