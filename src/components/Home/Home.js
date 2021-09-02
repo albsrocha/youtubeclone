@@ -1,27 +1,20 @@
+//Basic
 import React from 'react';
-import { makeStyles } from '@material-ui/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
+import{Drawer,Divider,List,ListItem,ListItemText,ListItemIcon,Box,Typography, Grid,Button,Toolbar,AppBar,IconButton,Hidden} from '@material-ui/core';
+import { makeStyles,  } from '@material-ui/styles';
+
+//Icones 
 import MenuIcon from '@material-ui/icons/Menu';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
 import AppsIcon from '@material-ui/icons/Apps';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import logoPreto from './images/preto.png'
-import Drawer from '@material-ui/core/Drawer';
-import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import HomeIcon from '@material-ui/icons/Home';
 import ExploreIcon from '@material-ui/icons/Explore';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import HistoryIcon from '@material-ui/icons/History';
-import Box from '@material-ui/core/Box';
 import PlayCircleFilledRoundedIcon from '@material-ui/icons/PlayCircleFilledRounded';
 import SportsBasketballRoundedIcon from '@material-ui/icons/SportsBasketballRounded';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
@@ -31,19 +24,19 @@ import LiveTvRoundedIcon from '@material-ui/icons/LiveTvRounded';
 import WhatshotRoundedIcon from '@material-ui/icons/WhatshotRounded';
 import ThreeDRotationRoundedIcon from '@material-ui/icons/ThreeDRotationRounded';
 import ControlPointRoundedIcon from '@material-ui/icons/ControlPointRounded';
-import { Typography, Grid } from '@material-ui/core';
+
 
 
 const videos = [
     {
         id: 1,
         title:
-            'FEED DO USUÁRIO | Criando uma Rede Social com React.js e .NET Core #29',
-        channel: 'Lucas Nhimi',
+            'VEGETA | O quão forte é o principe dos Sayajins?',
+        channel: 'Mirai Nicki',
         views: '11 mi de visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
-        thumb: '/images/thumb1.png',
+        thumb: '/images/thumb1.jpg',
     },
     {
         id: 2,
@@ -102,18 +95,99 @@ const videos = [
         views: '118 mil visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
-        thumb: '/images/thumb7.png',
+        thumb: '/images/thumb8.png',
     },
     {
         id: 8,
         title:
-            'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
-        channel: 'Lucas Nhimi',
+            'DESKTOP IDEAL | Criando uma ambiente favorável',
+        channel: 'Hick TECH',
         views: '1,9 mi de visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
-        thumb: '/images/thumb8.png',
+        thumb: '/images/thumb9.jpg',
     },
+    {
+        id: 9,
+        title:
+            'A MESMA THUMB | Sim! Usamos o mesmo exemplo de outros vídeos',
+        channel: 'Alberto Rocha',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb9.jpg',
+    },
+    {
+        id: 10,
+        title:
+            'RESOLUÇÔES | Direnças entre HD FULLHD e 4K na prática',
+        channel: 'TV HighTech',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb10.jpg',
+    },
+    {
+        id: 11,
+        title:
+            'STRANGER THINGS | O que esperar da na próxima temporada!',
+        channel: 'NetOnFlix',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb11.jpg',
+    },
+    {
+        id: 12,
+        title:
+            'RICK E MORTY | Desenho infantil? ',
+        channel: 'Eu nem sei o que é isso Canal',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb13.jpg',
+    },
+    {
+        id: 13,
+        title:
+            'ESPAÇO | Realmente o homem foi para o espaco?',
+        channel: 'Teatro do Espaço',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb12.jpg',
+    },
+    {
+        id: 14,
+        title:
+            'OS SIMPSON | Lançada a 55895ª Temporada dos Simpsons',
+        channel: 'Series sem fim',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb14.jpg',
+    },
+    {
+        id: 15,
+        title:
+            'TELAS | Mais um canal explicando as diferentes telas e resoluções',
+        channel: 'Sim TV!',
+        views: '11,9 mi de visualizações',
+        date: 'há 5 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb15.jpg',
+    },
+    {
+        id: 16,
+        title:
+            'BACKUP | Como clonar HD com segurança protegendo os dados e sem perca!',
+        channel: 'MidTechInfo',
+        views: '111,29 mi de visualizações',
+        date: 'há 10 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb16.jpg',
+    },
+    
 ];
 
 
@@ -190,8 +264,8 @@ function Home() {
                         <MenuIcon />
                     </IconButton>
                     <img src={logoPreto} alt='LogoPreto' className={classes.logo} />
-                    
-                    
+
+
                     <div className={classes.grow} />
 
                     <IconButton className={classes.icons} color="inherit">
@@ -270,7 +344,7 @@ function Home() {
                         <Typography
                             variant='body2'
                         >Faça login para curtir vídeos, comentários e se inscrever.
-                         </Typography>
+                        </Typography>
                         <Button className={classes.button} variant='outlined' color="secondary" startIcon={<PersonPinIcon />}>
                             Fazer Login
                         </Button>
@@ -365,7 +439,7 @@ function Home() {
                                 <Grid item lg={3} md={4} sm={6} xs={12}>
                                     <Box>
                                         <img
-                                            style={{ width: '100%' }}
+                                            style={{width: '100%', height: '100%',}}
                                             alt={item.title}
                                             src={item.thumb}
                                         />

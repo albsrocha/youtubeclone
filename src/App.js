@@ -1,14 +1,11 @@
 import React from 'react';
 import {ThemeProvider, createTheme} from '@material-ui/core';
-import Home from './Home.js';
+import Home from './components/Home/Home.js';
 
 function App() {
 
   const theme = createTheme({
     palette: {
-      primary:{
-        main:'#D2D',
-      } ,
       secondary:{
         main:'#0000FF',
       },
