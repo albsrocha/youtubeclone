@@ -1,6 +1,4 @@
-# youtubeclone
-
-#Projeto Youtube Clone
+# Projeto Youtube Clone
 
 
 O projeto tem como objetivo uma pequena demonstração da ferramenta
