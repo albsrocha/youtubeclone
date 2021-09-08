@@ -4,8 +4,6 @@ import{Drawer,Divider,List,ListItem,ListItemText,ListItemIcon,Box,Typography, Gr
 import { makeStyles,  } from '@material-ui/styles';
 
 //Icones 
-
-import KeyboardIcon from '@material-ui/icons/Keyboard';
 import SearchIcon from '@material-ui/icons/Search';
 import MenuIcon from '@material-ui/icons/Menu';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
@@ -54,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     searchInput:{
-        width: '650px',
+        width: '600px',
         height: '30px',
         border: '1px solid #D3D3D3',
         fontSize: '15px',
@@ -144,13 +142,15 @@ function Home() {
                     </IconButton>
                     <img src={logoPreto} alt='LogoPreto' className={classes.logo} />
                     </div>
-
+                    
+                    <Hidden mdDown>
                     <div className={classes.search}>
                         <input className={classes.searchInput} type="search" placeholder="Pesquisar"/>
                         <div className={classes.searchIconPlace}>
                         <SearchIcon className={classes.searchIcon}/>
                         </div>
                     </div>
+                    </Hidden>
                     <div className={classes.ToolbarEnd}>
                     <IconButton className={classes.icons} color="inherit">
                         <VideoCallIcon />
