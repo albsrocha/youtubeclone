@@ -13,6 +13,15 @@ Todo o projeto foi utilizando React JS + Material Ui para desenvolvimento. A esc
 - Modo Dark
 - Ajustar pequenos detalhes visuais
 
+### Como testar
+
+Fazer download :
+
+-Git 
+- NodeJs LTS
+
+Fazer uma cópia do projeto com git clone, acessar a pasta e executar npm install para instalar as dependências do projeto.
+
 ### OBS: 
 - O projeto não busca ser uma cópia exata, apenas demonstrar o uso da ferramenta e implementar diversas idéias futuras. Talvez como um clone ou a interface ideal.
 
