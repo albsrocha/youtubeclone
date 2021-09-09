@@ -17,7 +17,7 @@ Todo o projeto foi utilizando React JS + Material Ui para desenvolvimento. A esc
 
 Fazer download :
 
--Git 
+- Git 
 - NodeJs LTS
 
 Fazer uma cópia do projeto com git clone, acessar a pasta e executar npm install para instalar as dependências do projeto.
